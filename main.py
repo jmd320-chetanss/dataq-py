@@ -324,10 +324,10 @@ def generate_contract_line_report_from_file(
 # Generate Reports
 # ------------------------------------------------------------------------------
 
-dataset_path = sys.argv[1]
-report_path = sys.argv[2]
+input_file_path = sys.argv[1]
+output_report_path = sys.argv[2]
 
 generate_contract_line_report_from_file(
-    dataset_filepath=dataset_path,
-    report_filepath=report_path,
+    dataset_filepath=input_file_path,
+    report_filepath=output_report_path,
 )
